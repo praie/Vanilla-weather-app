@@ -3,32 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>Weather App</title>
   </head>
   <body>
     <div class="container">
       <header>
         <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit" value="Search" />
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="Search-form-input"
+          />
+          <input type="submit" value="Search" class="Search-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Paris</h1>
-          <p>
-            Wednesday 12:49, scattered clouds<br />
-            Humidity: 70%, Wind: 2.10km/h
-          </p>
+        <div class="weather-info">
+          <div>
+            <h1 class="city">Paris</h1>
+            <p class="weather-details">
+              Wednesday 12:49, Scattered clouds<br />
+              Humidity: <strong>70%</strong>, Wind:<strong> 2.10km/h</strong>
+            </p>
+          </div>
+          <div class="temperature-container">
+            <div class="temperature-icon">☁️</div>
+            <div class="temperature">14</div>
+            <div class="temperature-unit">°C</div>
+          </div>
         </div>
-        <div>☁️ 14°C</div>
       </main>
       <footer>
         <p>
           This project was coded by
-          <a href="#" target="_blank">Praise Maposa </a> and is
-          <a href="#" target="_blank"> on GitHub</a> and
-          <a href="#" target="_blank">hosted on Netlify</a>
+          <a href="https://github.com/praie" target="_blank">Praise Maposa </a>
+          and is
+          <a target="_blank"> on GitHub</a>
+          and
+          <a href="https://praise9.netlify.app/" target="_blank"
+            >hosted on Netlify</a
+          >
         </p>
       </footer>
     </div>
