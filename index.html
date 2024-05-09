@@ -10,20 +10,21 @@
   <body>
     <div class="container">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
-            class="Search-form-input"
+            class="search-form-input"
+            id="search-form-input"
           />
-          <input type="submit" value="Search" class="Search-button" />
+          <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <main>
         <div class="weather-info">
           <div>
-            <h1 class="city">Paris</h1>
+            <h1 class="city" id="current-city"></h1>
             <p class="weather-details">
               Wednesday 12:49, Scattered clouds<br />
               Humidity: <strong>70%</strong>, Wind:<strong> 2.10km/h</strong>
@@ -31,7 +32,7 @@
           </div>
           <div class="temperature-container">
             <div class="temperature-icon">☁️</div>
-            <div class="temperature">14</div>
+            <div class="temperature" id="current-temperature"></div>
             <div class="temperature-unit">°C</div>
           </div>
         </div>

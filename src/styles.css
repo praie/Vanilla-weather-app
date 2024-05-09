@@ -16,7 +16,7 @@ a {
   border-radius: 10px;
   box-shadow: 0 30px 50px rgba(60, 50, 100, 0.08);
 }
-.Search-form-input {
+.search-form-input {
   background-color: #eddce1;
   border: none;
   border-radius: 6px;
@@ -24,7 +24,7 @@ a {
   padding: 20px 15px;
   font-size: 16px;
 }
-.Search-button {
+.search-button {
   background-color: #b1addb;
   border: none;
   border-radius: 7px;
