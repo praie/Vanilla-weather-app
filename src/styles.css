@@ -25,7 +25,7 @@ a {
   font-size: 16px;
 }
 .search-button {
-  background-color: #b1addb;
+  background-color: #7c73db;
   border: none;
   border-radius: 7px;
   padding: 20px 30px;
@@ -62,16 +62,16 @@ strong {
   display: flex;
 }
 .temperature-icon {
-  font-size: 43px;
-  margin-top: 20px;
+  width: 86px;
+  height: 86px;
 }
 .temperature {
+  line-height: 86px;
   font-size: 86px;
-  margin-left: 10px;
   font-weight: bold;
 }
 .temperature-unit {
-  margin-top: 12px;
+  margin-top: 5px;
   font-size: 28px;
 }
 
